@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
-  res.json({ working: 'Yes en ingles' })
+  res.json({ working: 'Yes en ingles 2' })
 });
 
 module.exports = router;
