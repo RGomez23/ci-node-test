@@ -3,9 +3,7 @@ version: 2
 general:
   branches:
     only:
-      - dev
-      - staging
-      - prod
+      - main
 jobs:
   build:
     docker:
